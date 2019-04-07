@@ -1,0 +1,98 @@
+body{
+	font-family: Arial, sans-serif;
+	background-image: url(image/one.png)
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	background:#EEDDE2;
+	border-bottom:1px solid;
+}
+li{
+	list-style-type: none;
+}
+.lishki li a{
+	color: #000;
+}
+.lishki li:first-child{
+	border-bottom:2px solid;
+	font-size: 20px;
+}
+
+.lishki li:last-child{
+	border-bottom:1px solid;
+}
+
+table{
+	color: #fff;
+	width: 60%;
+	margin: auto;
+}
+
+table tr:nth-child(odd){
+	color: #000;
+	background-color: #A1BBDF;
+
+}
+
+table tr:nth-child(2n){
+	background-color: #3C4758;
+}
+
+#one{
+	background-color: #141E2C;
+	font-weight: bolder;
+	color: #fff;
+}
+table tr td:nth-child(3){
+	text-align: center;
+}
+table tr td:nth-child(4){
+	text-align: center;
+}
+table tr td:last-child{
+	text-align: right;
+}
+img{
+	height: 150px;
+	border-radius:18px;
+}
+.cards{
+	min-height: 100vh;
+	display: flex; 
+	justify-content: center;
+	text-align: center;
+}
+
+.card-1{
+	border: 1px solid;
+	margin: 30px 20px;
+	height: 250px;
+	background-color: #FA6A6A;
+	padding: 5px;
+	border-radius:20px;
+}
+.card-2{
+	border: 1px solid;
+	margin: 30px 20px;
+	height: 250px;
+	background-color: #FA6A6A;
+	padding: 5px;
+	border-radius:20px;
+}
+.card-1:hover{
+	transform:scale(1.2);
+}
+.card-2:hover{
+	transform:scale(1.2);
+}
+button{
+	height: 30px;
+	width: 100px;
+	margin-top: 30px;
+	background-color: #D7F11F;
+	border-radius:18px;
+	font-weight: bolder;
+
+}
