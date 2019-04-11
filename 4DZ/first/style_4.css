@@ -1,0 +1,22 @@
+@media (max-width: 375px){
+	#container{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.container-1{
+		width: 100%
+
+	}
+	.container-2{
+		width: 45%
+
+	}
+	.img{
+		width: 45%
+	}
+	.container-3{
+		width: 100%
+
+	}
+}

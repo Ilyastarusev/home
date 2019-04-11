@@ -1,0 +1,24 @@
+@media (max-width: 425px){
+	#container{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.container-1{
+		width: 50%
+
+	}
+	.container-2{
+		width: 50%
+
+	}
+	.img{
+		width: 100%
+	}
+	.knopk{
+		display: none;
+	}
+	.container-3{
+		width: 100%
+	}
+}

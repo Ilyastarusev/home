@@ -1,0 +1,48 @@
+@media (max-width: 375px){
+	#container{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.container-1{
+		display:none;
+
+	}
+	.container-2{
+		width: 30%;
+
+	}
+	.img{
+		width: 40%;
+	}
+
+	.last{
+		display: none;
+	}
+
+	.container-3{
+		background-color: #fff;
+	}
+
+	.knopk{
+		display: flex;
+		float: right;
+		width: 50px; 
+		background: #A2CB0B;
+		text-align: center;
+	}
+
+	.container-3:hover .last{
+		display: flex;
+		width: 250px;
+		height: 350px;
+		background-color: #0BCBAB;
+		text-align: center;
+	}
+
+	
+	
+
+
+
+}
